@@ -1,0 +1,54 @@
+body{
+	background-color: #CAE9FF;
+	text-align: center;
+}
+#header{
+	font-size: 5em;
+    margin: 30px;
+}
+#userinput{
+	margin: 2em;
+    padding: 10px;
+    width: 20em;
+    height: 2em;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#enter{
+    font-size: 30px;
+    border-radius: 7px;
+}
+ul{
+	list-style: none;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	font-size: 30px;
+}
+.listprop{
+	border: 1px solid;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 30px;
+}
+.listprop:hover{
+	background: white;
+}
+.listpropicon {
+	float: right;
+    margin-left: 20px;
+    color: grey;
+}
+.background{
+ 	background-color: blue;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+.red{
+	color: red;
+}
