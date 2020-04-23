@@ -47,33 +47,8 @@ function addDoneClass(){
 	console.log(target);
 	target.classList.toggle('done');
 	return;
-
 }
 
 //adding event listener
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
-//ul.addEventListener("click",addDoneClass);
-
-
-/*function addDoneClass(){
-	//console.log(window.event.target.parentElement);
-	var list = document.querySelectorAll("li");
-	for(var i=0; i<list.length; i++){
-		if(list[i] === window.event.target)
-		{
-			//var target = window.event.target;
-			console.log(list[i]);
-			list[i].classList.toggle('done');
-			return;
-
-		}
-		else if(list[i] === window.event.target.parentElement)
-		{
-			var target = window.event.target.parentElement;
-			console.log(target);
-			ul.removeChild(list[i]);
-			return;
-		}
-	}
-}*/
